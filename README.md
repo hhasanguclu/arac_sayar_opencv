@@ -14,7 +14,7 @@
     
 5. Gri tonlamalı görüntü üzerinde gürültüyü azaltmak için Gaussian bulanıklığı uygulanır (cv2.GaussianBlur() işlevi kullanılarak).
     
-6. İkili görüntü(binary) oluşturulur (cv2.threshold() işlevi kullanılarak).
+6. İkili görüntü (binary) oluşturulur (cv2.threshold() işlevi kullanılarak).
     
 7. İkili görüntü üzerinde genişletme (dilation) işlemi uygulanır (cv2.dilate() işlevi kullanılarak).
     
