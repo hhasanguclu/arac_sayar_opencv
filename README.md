@@ -6,7 +6,7 @@
 
 1. İlk olarak, OpenCV'nin VideoCapture sınıfı kullanılarak 'Video.mp4' adlı bir video dosyası açılır. (video genişliği ve yüksekliği istenildiği zaman ölçeklendirilebilir.)
     
-2. Video çerçeveleri okunarak ardışık iki çerçeve alınır.
+2. Video okunarak okunarak ardışık iki çerçeve alınır.
     
 3. Ardışık çerçeveler arasındaki fark hesaplanır ve mutlak değer alınır (cv2.absdiff() işlevi kullanılarak).
     
@@ -14,7 +14,7 @@
     
 5. Gri tonlamalı görüntü üzerinde gürültüyü azaltmak için Gaussian bulanıklığı uygulanır (cv2.GaussianBlur() işlevi kullanılarak).
     
-6. İkili görüntü oluşturulur (cv2.threshold() işlevi kullanılarak).
+6. İkili görüntü(binary) oluşturulur (cv2.threshold() işlevi kullanılarak).
     
 7. İkili görüntü üzerinde genişletme (dilation) işlemi uygulanır (cv2.dilate() işlevi kullanılarak).
     
