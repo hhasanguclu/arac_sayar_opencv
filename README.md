@@ -36,6 +36,6 @@
     
 16. İşlenen kare, ekranda görüntülenir (cv2.imshow() işlevi kullanılarak).
     
-17- Eğer kullanıcı 'ESC' tuşuna basarsa, döngüden çıkılır ve program sonlandırılır.
+17. Eğer kullanıcı 'ESC' tuşuna basarsa, döngüden çıkılır ve program sonlandırılır.
 
 Bu kod, basit bir araç tespit algoritmasıdır ve daha gelişmiş ve doğruluğu yüksek araç tespiti için daha karmaşık yöntemler kullanılabilir. Ayrıca, performansı artırmak için bazı iyileştirmeler de yapılabilir. Ancak, temel olarak, bu kod, video dosyasından araç tespiti yapmak için kullanılabilecek bir başlangıç noktası sağlar.
